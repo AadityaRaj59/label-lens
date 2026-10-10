@@ -80,21 +80,25 @@ From `backend/` with the virtual environment active:
 pytest -q
 ```
 
-## GitHub setup
+# LabelLens — GitHub Setup
 
-Create an empty repository named `label-lens` on GitHub (do not initialize it with a README or license), then run from this project root:
+I’ve set up the LabelLens project with its frontend and FastAPI backend and pushed the initial code to my GitHub repository.
 
-```powershell
-git init
+**Repository:** https://github.com/AadityaRaj59/label-lens
+
+The repository uses the `main` branch. The project contains the frontend, backend API, tests, documentation, and GitHub Actions workflow.
+
+For local development, I keep environment variables, database files, virtual environments, and backup files out of version control. Only the project files needed to develop and run the application should be committed.
+
+To push future changes, I use:
+
+```bash
 git add .
-git commit -m "chore: scaffold LabelLens frontend and API"
-git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/label-lens.git
-git push -u origin main
+git commit -m "Describe the changes"
+git push origin main
 ```
 
-Replace `YOUR-USERNAME` with your GitHub username. Do not commit `.env`, API keys, credentials, private product images, or real complaint data.
-
+I’ll continue testing the OCR workflow, inspection reports, and frontend-backend integration as development progresses.
 ## Planned implementation order
 
 1. Connect frontend actions to backend APIs.
