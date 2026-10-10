@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+build/
+dist/
+*.zip
+
+# Python virtual environments
+.venv/
+.venv*/
+**/.venv/
+**/.venv*/
+venv/
+**/venv/
+
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+
+# Local databases and user uploads
+*.sqlite
+*.sqlite3
+*.db
+backend/data/
+
+# Python cache and generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Backups and local editor files
+*.bak
+.vscode/
+.idea/

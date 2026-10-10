@@ -1,0 +1,1 @@
+"""LabelLens backend application package."""
